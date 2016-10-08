@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+
+		<script>
+			function sayHello(who) {
+				document.write(“Hello, “ + who);
+			}
+		</script>
+	</head>
+
+	<body>
+		<script>
+			var alpha = “ABCD“;
+			var length = alpha.length();
+
+			var num1 = 5;
+			var num2 = 3;
+			var total = num1 + num2;
+			document.write(total);
+
+			var array = new Array(4); 	//or
+			var array = new Array(“cat“, “dog“); //or
+			var array = [“cat“, “dog“, 95, true];
+
+			a[0] = “cat“;
+			a[1] = “dog“;
+			a[2] = 99;
+			a[3] = true;
+			document.write(a[1]);
+
+			sayHello(“Bob“);
+			document.write(“<br>“);
+			sayHello(“Mary“);
+			
+		</script>
+	</body>
+</html>
